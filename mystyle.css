@@ -14,13 +14,13 @@ body{
     color: white;
 }
 
-h1, h2, h3{
+h1{
     text-align: center;
 }
 
 a{
     text-decoration: none;
-    color: black;
+    
 }
 
 img{
@@ -29,10 +29,205 @@ img{
 
 
 /*utilities*/
-
+.read-btn{
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 13px;
+}
 
 /*nav*/
 nav.navigation{
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
 
+}
+.logo-border{
+    height: 35px;
+    padding-left: 20px;
+
+}
+.logo{
+    display: none;
+}
+.link-login{
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    margin-right: 20px;
+    text-transform: uppercase;
+    color: black;
+
+}
+.link-search{
+    display: none;
+}
+.link-news{
+    display: none;
+}
+.link-subs{
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    margin-right: 20px;
+    padding: 12px;
+
+}
+.link-subs:hover{
+    background: linear-gradient(to right, var(--primary), var(--primary));
+    transition: ease-in;
+    color: black;
+}
+.link-menu{
+    display: none;
+}
+.link-angle{
+
+}
+
+/*header*/
+header{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 24px;
+    letter-spacing: 3px;
+}
+.header-span{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: var(--primary);
+}
+.header-span:hover{
+    background-image: linear-gradient(180deg, var(--primary), var(--primary));
+    color: black;
+    transition: ease-in;
+}
+.header-p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+/*main-news*/
+.main-news{
+    position: relative;
+    height: 450px;
+
+}
+.main-news img{
+    height: 450px;
+}
+.main-news-text{
+    position: absolute;
+    top: 220px;
+    left: 30px;
+}
+.main-news-text h3{
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-right: 20px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 15px;
+}
+.main-news-text p{
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+/*secondary-news*/
+.secondary-news{
+    height: 520px;
+    margin-bottom: 50px;
+}
+.secondary-news-img{
+    height: 380px;
+
+}
+.secondary-news-img img{
+    height: 100%;
+    width: 100%;
+}
+.secondary-news-text{
+    height: 100px;
+    background-color: white;
+    padding: 20px;
+    color: black;
+}
+.secondary-news-text h3{
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-right: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    
+}
+.secondary-news-text p{
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.secondary-news-text .read-btn{
+    color: black;
+}
+
+/*section*/
+.section-div{
+    margin: 1rem;
+
+}
+.section-title{
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 10px;
+    border-left: 6px solid var(--primary);
+}
+.picks-grouped{
+
+}
+.picks-articles{
+    display: flex;
+    height: 100px;
+    margin-bottom: 50px;
+}
+.section-pic{
+    margin-right: 5px;
+    
+
+}
+.section-descript{
+    margin-left: 25px;
+}
+.section-descript h3{
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-right: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.section-p{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.2rem;
 }
